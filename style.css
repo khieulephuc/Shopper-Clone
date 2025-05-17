@@ -1,0 +1,640 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 20px;
+}
+nav{
+    height: 75px;
+    margin-left: 400px;
+    font-family: cursive;
+    font-weight: 600;
+}
+nav ul li a{
+    margin-top: 10px;
+    color: black;
+}
+.navbar-right :hover{
+    color: orange;
+}
+.nav-header :hover{
+    color: orange;
+}
+.navbar-left {
+    margin-top: 20px;
+    margin-left: -400px;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.jumbotron{
+    height: 540px;
+}
+.bg-pattern{
+    margin-top: -46px;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+.bg-dark span{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -142px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.col-12{
+    margin-top: 20px;
+    margin-right: -30px;
+}
+.img-responsive{
+    margin-left: 36px;
+    height: 400px;
+}
+.container h1{
+    font-size: 28px;
+    color: rgb(255, 251, 15);
+}
+.card-title{
+    margin-left: 196px;
+    margin-top: -250px;
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.btn-white{
+    margin-left: 150px;
+    margin-top: -140px;
+    border: white solid 1px;
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+.btn{
+    display: inline-block;
+    width: 40%;
+    height: calc(3.25rem + 2px);
+}
+.btn:hover{
+    background-color: skyblue;
+    color:darkblue;
+    transition: .3s all;
+}
+.col-sm-3{
+    margin-left: -10px;
+    margin-top: -30px;
+}
+.col-sm-3 i{
+    color: orange;
+    margin-left: -90px;
+    font-size: 15px;
+}
+.ms-6{
+    margin-left: 120px;
+    margin-top: -29px;
+    text-align:  justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    font-size: 14px;
+}
+.ms-6 p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.col-lg-8{
+    margin-top:-1px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.col-lg-8 h6{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(173 173 173);
+}
+.col-lg-8 h2{
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: 800;
+}
+.col-lg-8 p{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    margin-left: 100px;
+    margin-right: 110px;
+}
+.col-md-4{
+    overflow: hidden;
+    transition:  all 0.3s ease-in-out;
+    margin-left: 197px;
+    margin-right: -217px;
+}
+.col-md-4:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.card-body{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 100px;
+}
+.btn-link{
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+.btn-link:hover{
+    color: black;
+    text-decoration: none;
+}
+.card-circle{
+    margin-top: -200px;
+    margin-left: 190px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    border-radius: 70px;
+    width: 40%;
+    height: 120px;
+    background-color: rgb(241, 28, 28);
+}
+strong{
+    color: white;
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 600;
+}
+.text-bold{
+    color: white;
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: 600;
+}
+.card-title2 {
+    color: white;
+    font-family: cursive;
+    font-weight: 700;
+}
+.col-lg-8 .text-title{
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+hr{
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+    height: 1px;
+}
+.navbar-nav-menu {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 54px;
+    margin-left: 493px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 16px;
+    margin: 10px;
+}
+.nav-link.active{
+    text-decoration: none;
+    color: orange;
+}
+.active{
+    border-bottom: orange solid 1px;
+    position: relative;
+}
+.nav-link:hover{
+    color: orange;
+    text-decoration: none;
+}
+.col-6{
+    margin-right: -98px;
+}
+.card-img-top{
+    width: 60%;
+    height: 277px;
+}
+.card-icon{
+    margin-top: -277px;
+    margin-left: 0px;
+    position: absolute;
+    display: block;
+    text-align: justify;
+    width: 55.5%;
+    height: 278px;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+    transform: translateY(3px);
+    transition-property: transform,opacity;
+}
+.card-icon:hover{
+    transform: translateY(-3px);
+    transition-property: transform,opacity;
+    opacity: 1;
+}
+.btn-circle{
+    display: inline-block;
+    margin-top: 240px;
+    align-items: center;
+    color: black;
+    font-weight: 100;
+    width: 16%;
+    height: 34px;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 56px;
+    margin-right: -55px;
+}
+.btn-circle:hover{
+    border: 1px solid orangered;
+    transition: 0.3s ease-in;
+    background-color: orangered;
+    color: white;
+}
+.card-body-content{
+   width: 60%;
+   word-wrap: break-word;
+   display: inline-block;
+   flex-direction: column;
+   margin-top: 1px;
+   text-align: justify;
+   justify-content: center;
+   font-weight: 500;
+   min-width: 0;
+}
+.badge{
+    position: absolute;
+    top:0px;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 0px;
+    background-color: gold;
+    color: black;
+}
+.badge-bg-dark{
+    background-color: red;
+    color: white;
+}
+.card-body-content p{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    text-decoration: none;
+}
+.card-body-content a:hover{
+    text-decoration: none;
+}
+.card-body-content h3{
+    margin-top: -9px;
+    font-family: cursive;
+    font-size: 18px;
+}
+.text-decoration-line-through{
+    font-weight: 500;
+    text-decoration: line-through;
+    color: gray;
+}
+.text-primary{
+    font-weight: 500;
+    color: orange;
+}
+.card-body-content span{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link-underline {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+}
+.link-underline::before{
+    position: absolute;
+    border-bottom: 1px solid black;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    transition: all .2s ease-in-out;
+    transform-origin: right center;
+    transition-property: transform;
+}
+.link-underline:hover:before{
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    transform: translateX(10px);
+    transition-property: transform, opacity;
+}
+.py-13 img{
+    width: 100%;
+    height: 500px;
+}
+.justify-content-center .mb-7{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color:  rgb(0, 0, 0);
+    margin-top: -400px;
+    margin-left: 600px;
+    margin-right: -500px;
+}
+.fw-bolder {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orange;
+}
+.mb-9{
+    margin-top: 20px;
+    margin-left: 600px;
+    display: flex;
+}
+.px-1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-top: 18px;
+}
+.text-muted{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.btn-dark{
+    margin-top: 90px;
+    margin-left: 620px;
+    width: 30%;
+    height: 50px;
+    border: 2px solid;
+    font-family: cursive;
+    font-weight: 400;
+    color: azure;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+.btn-dark:hover{
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    color: black;
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.col-md-10{
+    margin-top: 50px;
+}
+.col-md-10 h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100px;
+}
+.col-md-10 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    font-weight: 800;
+}
+.card-border{
+    display: inline-table;
+    border: 1px solid rgb(242, 238, 238);
+    width: 100%;
+    border-radius: 0px;
+}
+.img-card img{
+    width: 100%;
+    height: 200px;
+}
+.card-body-2 a{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    text-decoration: none;
+}
+.rating .fas{
+    color: gold;
+}
+.px-4{
+    background-color: white;
+}
+.card-body-2 a h3{
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 1px;
+    color: black;
+}
+.card-text{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.swiper{
+    width: 70%;
+}
+.nagination{
+    top: -260px;
+    position: relative;
+}
+.swiper-pagination{
+    top: 25px;
+    position: relative;
+}
+.bg-light {
+    background-color: rgb(247, 247, 247);
+    height: 500px;
+}
+h2.mb-3{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 600;
+}
+.fs-lg{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.col-7{
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    margin-left: -29px;
+    margin-right: -171px;
+}
+.row .px-1{
+    margin-left: 13px;
+}
+.img-card-responsive{
+    margin-left: 30px;
+    display: flex;
+    width: 50%;
+    height: 178px;
+}
+.card-img-overlay-hover{
+    background-color: rgba(31,31,31,.4);
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: -178px;
+    width: 46%;
+    height: 178px;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+.card-img-overlay-hover:hover{
+    text-decoration: none;
+    transform: scale(1.0);
+    opacity: 1;
+}
+.my-0 .far{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-top: 83px;
+    margin-left: 30px;
+    margin-right: 18px;
+}
+.img-fluid{
+   margin-top: 30px;
+   margin-left: 30px;
+   margin-right: 100px;
+   width: 70%;
+   height: 21px;
+   display: flex;
+}
+.bg-light .px-1{
+    margin-left: 42px;
+    margin-right: -90px;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.align-items-start{
+    display: block;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-left: 118px;
+    margin-top: 50px;
+}
+.form-control {
+    border-radius: 0px;
+    border: solid gray;
+    width: 60%;
+    height: 60px;
+    background: rgb(61, 59, 59);
+    color: gold;
+    font-family: monospace;
+    font-weight: bold;
+}
+.col-auto button{
+    position: absolute;
+    width: 20%;
+    height: 64px;
+    color: white;
+    font-family: cursive;
+    background-color: grey;
+    margin-top: -77px;
+    margin-left: 77px;
+    transition: all 1s;
+}
+.col-auto button:hover{
+    background-color: aliceblue;
+    color: darkblue;
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.footer-heading {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+.list-social a{
+    text-decoration: none;
+    font-size: 16px;
+    list-style: none;
+    display: inline-flex;
+    color: white;
+}
+.list-social a:hover{
+    color: gray;
+}
+.heading-xxs {
+    color: white;
+    font-size: 16px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    margin-left: 59px;
+}
+.col-sm-2{
+    margin-top: 23px;
+    margin-left: 30px;
+    text-align: justify;
+    display: table;
+}
+.list-inline-text {
+    list-style: none;
+}
+.list-text a{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    margin-left: 58px;
+    margin-right: -123px;
+}
+.list-text a:hover{
+    color: white;
+}
+.navbar-left .text-muted{
+    color: gray;
+    margin-left: 381px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    cursor: auto;
+}
+.navbar-right .payment{
+    margin-top: 24px;
+}
+.py-6{
+    margin-top: 37px;
+}
+
+
